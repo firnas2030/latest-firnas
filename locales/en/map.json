@@ -1,0 +1,11 @@
+{
+  "dashboard": "Dashboard",
+  "map": "Map",
+  "display_data": "Display Data",
+  "contact_us": "Contact Us",  
+  "interactive_map": "Interactive Map",
+  "select_category": "Select Category",
+  "select_date": "Select Date",
+  "select_neighborhood": "Select Neighborhood",
+  "all": "All"
+}

@@ -1,0 +1,17 @@
+{
+  "dashboard": "Dashboard",
+  "map": "Map",
+  "display_data": "Display Data",
+  "contact_us": "Contact Us",
+  "download_excel": "Download Excel",
+  "firnas_aero": "Firnas Aero",
+  "ticket": "Ticket",
+  "first_Name": "FirstName",
+  "date": "Date",
+  "location_direction": "LocationDirection",
+  "sub_classification_id": "SubClassificationID",
+  "category": "Category",
+  "longitude": "Longitude",
+  "latitude": "Latitude",
+  "status": "Status"
+}

@@ -1,0 +1,17 @@
+{
+  "dashboard": "لوحة القيادة",
+  "map": "خريطة",
+  "display_data": "عرض البيانات",
+  "contact_us": "اتصل بنا",
+  "download_excel": "تحميل اكسل",
+  "firnas_aero": "فرناس ايرو",
+  "ticket": "تذكرة",
+  "first_Name": "الاسم الأول",
+  "date": "تاريخ",
+  "location_direction": "اتجاه الموقع",
+  "sub_classification_id": "معرف التصنيف الفرعي",
+  "category": "فئة",
+  "longitude": "خط الطول",
+  "latitude": "خط العرض",
+  "status": "حالة"
+}

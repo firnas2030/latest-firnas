@@ -1,0 +1,20 @@
+{
+  "add_user": "Add User",
+  "user_management": "User Management",
+  "list_of_user": "List of all the users with their name, created date, role and Email.",
+  "name": "Name",
+  "created_date": "Created Date",
+  "role": "Role",
+  "email": "Email",
+  "main_page": "Main Page",
+  "users": "Users",
+  "messages": "Messages",
+  "new_user": "New User",
+  "go_back": "Go Back",
+  "password": "Password",
+  "status": "Status",
+  "city": "City",
+  "cancel": "Cancel",
+  "save": "Save"
+
+}

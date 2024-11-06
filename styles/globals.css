@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+.teal_btn {
+  @apply block rounded-md bg-primary-teal px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-teal-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-teal;
+}
+
+.mybtn {
+  @apply rounded-md text-center text-white bg-[rgb(3,94,95)] px-[39px] font-bold border-0 w-full sm:w-auto;
+}
+
+
+.bttn__primary {
+  background-color: #015F60;
+  color: white;
+  border-width: 1px;
+  border-color: #015F60;
+  /* border-radius: 0.25rem; */
+  font-size: 1.125rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-radius: 0.2rem;
+}
+
+ .bttn__primary:hover {
+  background-color: #9DCCC1;
+}
+
+.bttn__primary {
+    background-color: #015F60;
+    color: white;
+    border-width: 1px;
+    border-color: #015F60;
+    /* border-radius: 0.25rem; */
+    font-size: 1.125rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-radius: 0.2rem;
+  }
+  
+   .bttn__primary:hover {
+    background-color: #9DCCC1;
+  }  
+  
+/* Logout Button Hover */
+.logout-button:hover {
+  background-color: #6bbdf2;
+  box-shadow: 0 0 20px #4aa6e8, 0 0 30px #4aa6e8;
+}
+
+/* Dropdown Link Hover */
+.dropdown-link:hover {
+  background-color: #e0f7fa;
+  color: #012E3C;
+}
+
+.body {
+  min-height: 100vh;
+  overflow-y: auto; /* Allows scrolling when content overflows */
+}
+
+.content {
+  padding: 20px;
+}
+
+#inputForm {
+  max-width: 100%;
+  overflow: auto;
+}
