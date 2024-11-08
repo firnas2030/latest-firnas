@@ -4,8 +4,7 @@
   "proxy": "http://127.0.0.1:5000/",
   "private": true,
   "scripts": {
-    "dev": "sst bind next dev",
-    "install": "npm install --legacy-peer-deps",
+    "dev": "next dev",
     "build": "next build",
     "start": "node server.js",
     "export": "next export"
@@ -14,6 +13,7 @@
     "@emailjs/browser": "^3.11.0",
     "@headlessui/react": "^1.7.17",
     "@heroicons/react": "^2.0.18",
+    "@react-google-maps/api": "^2.20.3",
     "autoprefixer": "10.4.15",
     "axios": "^1.5.1",
     "bcrypt": "^5.1.1",
@@ -22,7 +22,6 @@
     "exif-js": "^2.3.0",
     "express": "^4.19.2",
     "firebase": "^10.4.0",
-    "google-maps-react": "^2.0.6",
     "i18next": "^23.7.3",
     "i18next-resources-to-backend": "^1.2.0",
     "jsonwebtoken": "^9.0.2",
@@ -36,11 +35,11 @@
     "next": "^14.2.7",
     "next-i18n-router": "^5.0.1",
     "postcss": "^8.4.44",
-    "react": "18.2.0",
+    "react": "^18.2.0",
     "react-bootstrap": "^2.9.0",
     "react-csv": "^2.2.2",
     "react-datepicker": "^4.21.0",
-    "react-dom": "18.2.0",
+    "react-dom": "^18.2.0",
     "react-i18next": "^13.4.0",
     "react-icons": "^5.3.0",
     "react-iframe": "^1.8.5",
@@ -52,10 +51,10 @@
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.6",
-    "encoding": "^0.1.13",
-    "tailwind-scrollbar": "^3.0.5",
-    "sst": "^2",
     "aws-cdk-lib": "2.161.1",
-    "constructs": "10.3.0"
+    "constructs": "10.3.0",
+    "encoding": "^0.1.13",
+    "sst": "^2",
+    "tailwind-scrollbar": "^3.0.5"
   }
 }
