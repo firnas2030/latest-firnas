@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "sst bind next dev",
-    "build": "next build",
+    "build": "npm install --legacy-peer-deps && next build",
     "start": "node server.js",
     "export": "next export"
   },
