@@ -148,11 +148,11 @@ const Section1 = ({
           />
 
           <div className="mt-4 flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="bg-teal-600 hover:bg-teal-700 text-white font-semibold py-3 px-8 rounded-lg shadow-md transition-shadow duration-200" onClick={() => router.push('/usertype')}>
-              {go_back}
-            </button>
             <button className="bg-teal-500 hover:bg-teal-600 text-white font-semibold py-3 px-8 rounded-lg shadow-md transition-shadow duration-200" disabled={loading} onClick={handleLogin}>
               {login}
+            </button>
+            <button className="bg-teal-600 hover:bg-teal-700 text-white font-semibold py-3 px-8 rounded-lg shadow-md transition-shadow duration-200" onClick={() => router.push('/usertype')}>
+              {go_back}
             </button>
           </div>
         </div>

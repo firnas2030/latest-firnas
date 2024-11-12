@@ -593,7 +593,7 @@ function InferenceForm({
           {/* User Details */}
           <div className="space-y-4">
             {[
-              { label: "Your Email", value: Email, setter: setEmail, type: "email" },
+              { label: _email, value: Email, setter: setEmail, type: "email" },
               { label: _address, value: Address, setter: setAddress, type: "text" },
               { label: _national_id, value: NationalID, setter: setNationalID, type: "text" },
               { label: _municipality_id, value: MunicipalityID, setter: setMunicipalityID, type: "text" },
