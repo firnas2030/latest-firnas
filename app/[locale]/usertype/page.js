@@ -16,7 +16,7 @@ const UserType = async ({ params: { locale } }) => {
         <Section1
           mem_option={t('mem_option')}
           firnas_user={t('firnas_user')}
-          med_user={t('med_user')}
+          med_user={t('User')}
           firnas_aero={t('firnas_aero')}
         />
       </div>
