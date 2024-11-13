@@ -276,7 +276,7 @@ function InferenceForm({
           }
           handleReverseGeocode(latitude, longitude);
           const response1 = await axios.post(
-            'https://18.232.138.189//predict',
+            'https://18.232.138.189/predict',
             formData,
             {
               headers: {
