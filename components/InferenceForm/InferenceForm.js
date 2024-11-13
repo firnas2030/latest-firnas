@@ -276,7 +276,7 @@ function InferenceForm({
           }
           handleReverseGeocode(latitude, longitude);
           const response1 = await axios.post(
-            'http://127.0.0.1:5000/predict',
+            'https://firnas-backend.vercel.app/predict',
             formData,
             {
               headers: {
