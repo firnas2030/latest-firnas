@@ -1,7 +1,7 @@
 {
   "name": "alfirns-admin",
   "version": "0.1.0",
-  "proxy": "https://latest-firnas.vercel.app/",
+  "proxy": "https://firnas-backend-reryw95yx-firnas-projects-053b4e12.vercel.app/",
   "private": true,
   "scripts": {
     "dev": "next dev",
